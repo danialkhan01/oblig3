@@ -1,0 +1,117 @@
+
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+
+}
+.team-section{
+    overflow: hidden;
+    text-align: center;
+    background: rgb(248,237,245);
+    background: linear-gradient(90deg, rgba(248,237,245,1) 0%, rgba(248,237,245,1) 35%, rgba(137,129,193,1) 100%);
+    background-size: 100%;
+    padding: 20px;
+
+}
+.team-section h1{
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color:black;
+     font-size: 40px;
+}
+.border{
+    display: block;
+    margin: auto;
+    width: 160px;
+    height:3px;
+    background:#3f4041;
+    margin-bottom: 40px;
+}
+.ps{
+    margin-bottom: 40px;
+    padding-top: 35px;
+}
+.ps a{
+    display: inline-block;
+    margin: 0 30px;
+    width: 160px;
+    height:160px;
+    overflow: hidden;
+    border-radius: 50%;
+
+}
+.ps a img{
+    width: 100%;
+    filter: grayscale(100%);
+    transition: 0.4s all;
+    
+}
+.ps a:hover  > img{
+    filter: none;
+}
+.section{
+    width: 600px;
+    margin: auto;
+    font-size: 18px;
+    color: black;
+    text-align: justify;
+    height: 0;
+    overflow: hidden;
+     
+}
+.section:target{
+    height: auto;
+}
+.name {
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+h2{
+position: absolute;
+top:135px;
+left: 190px;
+}
+h3{
+    position: absolute;
+    top:135px;
+    left: 420px;
+    font-size: 25px;
+    }
+    h4{
+        position: absolute;
+        top:130px;
+        left: 650px;
+        font-size: 25px;
+        }
+        h5{
+            position: absolute;
+            top:135px;
+            left: 860px;
+            font-size: 25px;
+            }
+            h6{
+                position: absolute;
+                top:135px;
+                left:1080px;
+                   font-size: 25px;
+                }
+                .text{
+position: absolute;
+top:80px;
+left: 535px;
+                }
+                
+#BackButton {
+    position: fixed;
+    top: 0px;
+    left: 20px;
+    border: 0; 
+    height: 60px; 
+    width: 92px;
+    z-index: 2;
+  
+  }

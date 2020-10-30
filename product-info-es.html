@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/7918846ba0.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&family=Source+Sans+Pro:wght@300;400;600&display=swap"
+    rel="stylesheet">
+  <title>CareWear</title>
+</head>
+
+<body>
+  <!--START OF HEADER-->
+  <header>
+    <nav id="header-nav" class="navbar navbar-expand-md navbar-expand-lg navbar-light">
+      <a class="navbar-brand" href="index-es.html">
+        <h1>CareWear</h1>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#button-list"
+        aria-controls="button-list" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="fas fa-bars"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="button-list">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index-es.html"><span class="fas fa-home"></span><br class="d-block d-sm-none"> Principal
+              <span class="sr-only">(current)</span></a>
+            <hr class="d-block d-md-none">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="product-info-es.html"><span class="fas fa-heart"></span><br class="d-block d-sm-none">
+              Producto</a>
+            <hr class="d-block d-md-none">
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false"><span class="fas fa-info-circle"></span><br
+                class="d-block d-sm-none">
+              Información
+            </a>
+            <hr class="d-block d-md-none">
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="about-us-es.html">Misión y nuestro equipo</a>
+              
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="contact-es.html">Contáctanos</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarLanDropdown" role="button" data-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false"><span class="fas fa-globe"></span><br
+                class="d-block d-sm-none">
+              ES
+            </a>
+            <hr class="d-block d-md-none">
+            <div class="dropdown-menu" aria-labelledby="navbarLanDropdown">
+              <a class="dropdown-item" href="product-info.html"><img class="align" src="images/us.png" alt="US flag"> EN</a>
+              <a class="dropdown-item" href="product-info-no.html"><img class="align" src="images/bv.png" alt="NO flag"> NO</a>
+              <a class="dropdown-item" href="product-info-es.html"><img class="align" src="images/es.png" alt="ES flag"> ES</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0 d-block d-md-none d-lg-block">
+          <input class="form-control mr-sm-2" type="search" placeholder="Buscar..." aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
+      </div>
+    </nav>
+  </header>
+  <!--END OF HEADER-->
+
+  <!--START OF MAIN CONTENT-->
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <h3 class="text-center py-3 text-uppercase">Dispositivo CareWear</h3>
+
+            <ul class="nav nav-pills nav-justified mb-3" id="pills-tab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="pills-pulse-tab" data-toggle="pill" href="#pills-pulse" role="tab" aria-controls="pills-pulse" aria-selected="true"><i class="fas fa-heartbeat"></i> — Monitor de pulso</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-fall-tab" data-toggle="pill" href="#pills-fall" role="tab" aria-controls="pills-fall" aria-selected="false"><i class="fas fa-exclamation-circle"></i> — Detector de caída</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false"><i class="fas fa-envelope"></i> — Alertas de emergencia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="pills-medication-tab" data-toggle="pill" href="#pills-medication" role="tab" aria-controls="pills-medication" aria-selected="false"><i class="fas fa-pills"></i> — Recordatorios</a>
+              </li>
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-pulse" role="tabpanel" aria-labelledby="pills-pulse-tab">Algunos relojes electrónicos permiten al usuario rastrear su frecuencia cardíaca incorporando un sensor de pulso debajo de la esfera del reloj o en la correa. Creemos que esta función se puede llevar más allá implementando un algoritmo que pueda detectar anomalías en el pulso (arritmia) y enviar una notificación a un contacto de emergencia designado. Esto alivia la necesidad de contacto manual en una situación de emergencia.
+
+              </div>
+              <div class="tab-pane fade" id="pills-fall" role="tabpanel" aria-labelledby="pills-fall-tab">Nuestras personas mayores son el grupo demográfico que más sufren caídas accidentales. Puede tener consecuencias catastróficas y dejarlos incapacitados, a veces incapaces de pedir ayuda. CareWear incluye una función de detección de caídas para ayudar. Al usar un acelerómetro, puede detectar los cambios de velocidad que a menudo se relacionan con los de una caída. Cuando lo hace, envía una notificación al contacto de emergencia con la ubicación de la caída incluida.
+
+              </div>
+              <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">Las alertas de emergencia que proporciona nuestro reloj también se pueden activar manualmente. Al hacer uso del botón de emergencia en la esquina superior derecha, el usuario puede enviar una notificación de texto al contacto de emergencia designado.
+              </div>
+              <div class="tab-pane fade" id="pills-medication" role="tabpanel" aria-labelledby="pills-medication-tab">La función final implementada en CareWear está dirigida a quienes sufren problemas de memoria. Olvidar tomar un medicamento importante, así como una sobredosis, son causas muy comunes de daño severo o muerte. CareWear le recordará al usuario que debe tomar su medicación y permitirá que el recordatorio se descarte una vez que lo haya hecho. Lo hará un seguimiento en su pantalla para que sea más fácil para el usuario recordar si ya lo ha tomado o no. Si el usuario olvida o ignora la notificación, se envía un aviso de emergencia al contacto designado.
+              </div>
+            </div>
+
+            <div id="video" class="embed-responsive embed-responsive-16by9">
+              <iframe width="1280" height="720" src="https://www.youtube.com/embed/FW1TqHaDfgE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+
+            <div id="about-button" class="text-center">
+              <a href="about-us.html"><button id="about-us" class="active btn btn-lg btn-outline-success my-2 my-sm-0" type="submit">About us</button></a>
+            </div>
+        </div>
+    </div>
+</div>
+    <!--END OF ROW-->
+  </div>
+  <!--END OF MAIN CONTENT-->
+
+ <!--START OF FOOTER-->
+ <footer class="panel-footer">
+  <div class="container">
+    <div class="row">
+      <section id="email" class="col-sm-4">
+        <span>Correo electrónico:</span><br>
+        carewear@fakeemail.com<br>
+        <div id="footer-button">
+          <a href="contact-es.html"><button id="contact-us" class="active btn btn-outline-success my-2 my-sm-0" type="submit">Contacto</button></a>
+        </div>
+        <hr class="d-block d-sm-none">
+      </section>
+      <section id="address" class="col-sm-4">
+        <span>Dirección:</span><br>
+        Carewear gate, 20 - 0123
+        Oslo, Noruega
+        <hr class="d-block d-sm-none">
+      </section>
+      <section id="testimonials" class="col-sm-4">
+        <p>"Nos ha cambiado las vidas. Sencillo de utilizar y diseño elegante."</p>
+      </section>
+    </div>
+    <div id="copyright" class="text-center">
+      &copy; Copyright CareWear 2020
+    </div>
+  </div>
+</footer>
+<!--END OF FOOTER-->
+
+
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
